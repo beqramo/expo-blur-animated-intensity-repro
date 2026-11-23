@@ -1,6 +1,6 @@
 # expo-blur: animating `intensity` creates a new UIViewPropertyAnimator per frame (iOS)
 
-Minimal reproducer for [expo/expo#54029](https://github.com/expo/expo/issues/54029).
+Minimal reproducer for [expo/expo#54062](https://github.com/expo/expo/issues/54062) (first reported as [#54029](https://github.com/expo/expo/issues/54029), closed by the bot for lacking a reproducer).
 Proposed fix: [expo/expo#54037](https://github.com/expo/expo/pull/54037) (the `fixed` variant of `scripts/use-variant.js`).
 
 A blank Expo SDK 58 app (from `create-expo-app --template blank-typescript`) with 12 `BlurView`s
